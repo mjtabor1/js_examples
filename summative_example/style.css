@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: #1a1a2e;
+  color: #eee;
+}
+
+#game-container {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+#question-area {
+  font-size: 1.3rem;
+  margin: 20px 0;
+  min-height: 60px;
+}
+
+#answer-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#start-btn {
+  padding: 12px 28px;
+  font-size: 1rem;
+  background: #e94560;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
